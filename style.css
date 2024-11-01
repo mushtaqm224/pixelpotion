@@ -1,0 +1,86 @@
+/* General styles */
+body {
+ font-family: ; 'Helvetica Neue',
+sans-serif;
+ font-style: italic;
+ font-size: 30px;
+ background-color: black;
+
+}
+
+/*Header */
+header nav {
+  display: flex;
+  justify-content: space-between ;
+}
+
+/* Grid layout for portfolio */
+.grid-container {
+	display: grid;
+	grid-template-columns:
+repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+}
+ 
+.left-align-image{
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+  margin: 70px;
+}
+
+p {
+   color: white;
+}
+
+
+h1 {
+  color: white;
+}
+
+.image-description-container {
+  display: flex;
+  align-items: right align;
+}
+
+.description {
+  flex-grow: 1;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+to {
+  transform: rotate(360deg);
+   }
+}
+
+.staircase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.staircase img {
+  width: 50%;
+  height: auto;
+}
+
+.staircase {
+  gap: 30px;
+}
+
+
+
+
+
+
+
